@@ -1,13 +1,13 @@
 $(function () {
     "use strict";
-    
+
     $(window).on('load', function() {
         $('body').addClass('loaded');
     });
 
 /*=========================================================================
     Burger Menu
-=========================================================================*/    
+=========================================================================*/
     var burgerMenu = function () {
         $('.js-addo-nav-toggle').on('click', function (event) {
             event.preventDefault();
@@ -47,7 +47,7 @@ $(function () {
     Typed js Active
 =========================================================================*/
     $(".typed").typed({
-        strings: ["Freelancer.", "Designer.", "Developer."],
+        strings: ["Freelancer.", "Designer.", "Developer.", "Engineer.", "Pet Parent.", "Gamer.", "Nerd.", "Geek.", "Human."],
         loop: true,
         typeSpeed: 150
     });
@@ -61,7 +61,7 @@ $(function () {
 		$('.portfolio-filter li').on( 'click', function(){
 	        $(".portfolio-filter li").removeClass("active");
 	        $(this).addClass("active");
-	 
+
 	        var selector = $(this).attr('data-filter');
 	        $(".portfolio-items").isotope({
 	            filter: selector,
@@ -115,7 +115,7 @@ $(function () {
             }
         }
     });
-    
+
 /*=========================================================================
     wow Settings
 =========================================================================*/
@@ -123,7 +123,7 @@ $(function () {
         mobile: false,
         offset: 0
     });
-    wow.init();    
+    wow.init();
     // scroll
     $.scrollIt({
         upKey: 38, // key code to navigate to the next section
@@ -134,5 +134,5 @@ $(function () {
         onPageChange: null, // function(pageIndex) that is called when page is changed
         topOffset: 0 // offste (in px) for fixed top navigation
     });
- 
+
 });
