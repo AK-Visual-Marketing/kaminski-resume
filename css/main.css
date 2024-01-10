@@ -95,6 +95,7 @@ h6 {
 .section-padding{ padding: 100px 0; }
 .padding-10{ padding: 10px; }
 .padding-15{ padding: 15px; }
+.padding-bottom-15{ padding-bottom: 50px; }
 /* =======  Border Style  ======= */
 .bd-bottom{
     border-bottom: 1px solid #333;

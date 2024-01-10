@@ -5,6 +5,11 @@
     text-align: center;
 }
 
+.akvm-logo img{
+    padding-top: 10px
+
+}
+
 .akvm-burger-menu {
     position: absolute;
     top: 35px;

@@ -47,7 +47,7 @@ $(function () {
     Typed js Active
 =========================================================================*/
     $(".typed").typed({
-        strings: ["Freelancer.", "Designer.", "Developer.", "Engineer.", "Pet Parent.", "Gamer.", "Nerd.", "Geek.", "Human."],
+        strings: ["a Freelancer.", "a Designer.", "a Developer.", "an Engineer.", "a Pet Parent.", "a Gamer.", "a Nerd.", "a Wife.", "a Human.", "an Empath."],
         loop: true,
         typeSpeed: 150
     });
