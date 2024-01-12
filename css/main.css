@@ -766,9 +766,8 @@ footer p a {
     .container {
         max-width: 100%;
         padding-left: 30px;
-        padding-right: 15px;
-        /* @aerie  */
-    }
+        padding-right: 30px;
+            }
 }
 @media screen and (max-width: 1199px) {
     .mobile-navigation {
@@ -837,14 +836,11 @@ footer p a {
     }
     .section-padding{
         padding: 60px 0;
-        padding-left: 15px;
-        /* @aerie  */
     }
     .akvm-side-content > .logo img {
         max-width: inherit;
         max-height: 30px;
-        width: 100%;
-        /* @aerie 2 */
+        width: auto;
     }
     .akvm-side-content > .logo h1 {
         color: #fff;
