@@ -252,7 +252,6 @@ h6 {
 .header .caption p span {
     text-transform: uppercase;
     margin: 0 5px;
-    /* padding-right: 15px; */
     position: relative;
 }
 .header .caption p span:last-child {
@@ -286,7 +285,7 @@ h6 {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    width: 100% !important;
+    width: 100%;
     height: 400px;
     position: relative;
 }
@@ -762,7 +761,7 @@ footer p a {
 
 
 /* ======= Media Query  ======= */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
     .container {
         max-width: 100%;
         padding-left: 30px;
