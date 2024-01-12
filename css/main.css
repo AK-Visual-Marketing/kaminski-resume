@@ -764,7 +764,7 @@ footer p a {
 /* ======= Media Query  ======= */
 @media screen and (min-width: 1200px) {
     .container {
-        max-width: 1200px;
+        max-width: 100%;
         padding-left: 30px;
         padding-right: 15px;
         /* @aerie  */
