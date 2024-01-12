@@ -252,7 +252,7 @@ h6 {
 .header .caption p span {
     text-transform: uppercase;
     margin: 0 5px;
-    padding-right: 15px;
+    /* padding-right: 15px; */
     position: relative;
 }
 .header .caption p span:last-child {
@@ -766,7 +766,8 @@ footer p a {
     .container {
         max-width: 1200px;
         padding-left: 30px;
-        padding-right: 30px;
+        padding-right: 15px;
+        /* @aerie  */
     }
 }
 @media screen and (max-width: 1199px) {
@@ -836,6 +837,8 @@ footer p a {
     }
     .section-padding{
         padding: 60px 0;
+        padding-left: 15px;
+        /* @aerie  */
     }
     .akvm-side-content > .logo img {
         max-width: inherit;
