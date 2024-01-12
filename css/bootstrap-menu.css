@@ -490,7 +490,7 @@
     .akvm-header .logo img {
         max-width: inherit;
         max-height: 90px;
-        width: auto;
+        width: 500px;
     }
 
     .akvm-burger-menu {
