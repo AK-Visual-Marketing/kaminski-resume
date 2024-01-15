@@ -380,7 +380,9 @@ h6 {
     margin-right: 10px;
 }
 .exp-date span{}
-.exp-content{}
+.exp-content{
+    padding-right: 10px;
+}
 
 /* =======  Progress Bar Styles  ======= */
 .skill-items .skill-item{
